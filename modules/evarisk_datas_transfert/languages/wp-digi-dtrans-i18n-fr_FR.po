@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp projects management - V1.0\n"
+"POT-Creation-Date: 2015-06-19 10:45+0100\n"
+"PO-Revision-Date: 2015-06-19 10:48+0100\n"
+"Last-Translator: Eoxia developement team <dev@eoxia.com>\n"
+"Language-Team: Eoxia developement team <dev@eoxia.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:82
+msgid "Manage datas transfer from digirisk V5.X"
+msgstr "Gestion des transferts de données depuis digirisk V5.X"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:82
+msgid "Digirisk - transfer"
+msgstr "Digirisk - transferts"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:253
+msgid "Datas transfer is in progress, please wait until it is completly done."
+msgstr ""
+"Le transfert de données est en cours, merci de patienter jsuqu'à ce qu'il "
+"soit complétement terminé."
+
+#: ../controller/wpdigi_dtransfert_ctr.php:614
+#, php-format
+msgid "Transfered from evarisk on post having id. %d"
+msgstr ""
+"Transféré depuis la base de digirisk vers la base de wordpress sous "
+"l'identifiant %d"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:708
+msgid "Error transferring from evarisk to post."
+msgstr "Une erreur est survenue lors du transfert de Digirisk vers wordpress."
+
+#: ../controller/wpdigi_dtransfert_ctr.php:824
+#, php-format
+msgid "%s transfered from evarisk on post having to element #%d"
+msgstr "%s a été transféré de Digirisk vers wordpress sous l'identifiant #%d"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:849
+#, php-format
+msgid ""
+"%s could not being transfered to wordpress element. Filename: %s. Wordpress "
+"element: %d. Evarisk old element: %s"
+msgstr ""
+"%s n'a pas pu être transféré vers wordpress. Nom du fichier: %s. Identifiant "
+"Wordpress: %d. Identifient Digirisk: %s"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:854
+#, php-format
+msgid ""
+"%s could not being transfered to wordpress element because is not a file. "
+"name: %s. Wordpress element: %d. Evarisk old element: %s"
+msgstr ""
+"%s n'a pas pu être transféré dans les documents de wordpress car ce n'est "
+"pas un fichier. Nom: %s. Identifiant Wordpress: %d. Identifiant Digirisk: %s."
+
+#: ../controller/wpdigi_dtransfert_ctr.php:945
+msgid "Survey association have been transfered to normal way"
+msgstr ""
+"Les associations des formulaires ont été transférées vers le stockage "
+"\"normal\""
+
+#: ../controller/wpdigi_dtransfert_ctr.php:1079
+#, php-format
+msgid "Tasks linked to this %s - %d have not been transfered to %d"
+msgstr ""
+"Les tâches liées a l'élément %s - %d n'ont pas pu être transférées vers le "
+"nouvel élément %d"
+
+#: ../templates/backend/transfert-user-options.php:4
+#, php-format
+msgid "User id from digirisk: %d"
+msgstr "Id. de l'utilisateur Digirisk: %d"
+
+#: ../templates/backend/transfert.php:2
+msgid "Transfer datas for digirisk"
+msgstr "Transfert des données de digirisk"
+
+#: ../templates/backend/transfert.php:3
+msgid ""
+"Next digirisk version will use more wordpress fonctionnalities. For this "
+"purpose we need to transfer some datas from our specific storage to "
+"wordpress storage."
+msgstr ""
+"Les futures version de digirisk vont utiliser au mieux les fonctionnalités "
+"de wordpress. Dans ce but nous devons transférer certaines données depuis "
+"notre stockage spécifique vers le stockage de wordpress."
+
+#: ../templates/backend/transfert.php:5
+msgid "Important note"
+msgstr "Note importante"
+
+#: ../templates/backend/transfert.php:5
+msgid "Be sure to make a backup of your datas before launching datas transfer"
+msgstr ""
+"Veuillez vous assurer d'avoir une sauvegarde de vos données avant de lancer "
+"le transfert"
+
+#: ../templates/backend/transfert.php:19
+msgid "Tasks"
+msgstr "Tâches"
+
+#: ../templates/backend/transfert.php:21
+msgid "Sub tasks"
+msgstr "Sous-tâches"
+
+#: ../templates/backend/transfert.php:25
+msgid "Groups"
+msgstr "Groupe"
+
+#: ../templates/backend/transfert.php:27
+msgid "Work unit"
+msgstr "Unité de travail"
+
+#: ../templates/backend/transfert.php:47 ../templates/backend/transfert.php:55
+#: ../templates/backend/transfert.php:66
+msgid "Total"
+msgstr "Nombre total"
+
+#: ../templates/backend/transfert.php:48 ../templates/backend/transfert.php:56
+#: ../templates/backend/transfert.php:67
+msgid "Transfered"
+msgstr "Transféré(s)"
+
+#: ../templates/backend/transfert.php:64
+msgid "Documents"
+msgstr "Documents"
+
+#: ../templates/backend/transfert.php:68
+msgid "Not Transfered"
+msgstr "Non transféré(s)"
+
+#: ../templates/backend/transfert.php:82
+msgid "Launch transfer"
+msgstr "Transférer les données"
+
+#~ msgid "Element linked to this %s have not been transfered to %d"
+#~ msgstr "Les liens "
+
+#~ msgid "Documents and pictures"
+#~ msgstr "Documents et images"
+
+#~ msgid "Start using task manager"
+#~ msgstr "Commencer à utiliser le gestionnaire de tâches"
+
+#~ msgid "Please wait while transfert is in progress"
+#~ msgstr "Merci de patienter, le transfert est en cours"
+
+#~ msgid "Move documents and pictures"
+#~ msgstr "Transférer les documents et images"
+
+#~ msgid "Move tasks"
+#~ msgstr "Déplacer les tâches"
+
+#~ msgid ""
+#~ "All transfert have been done. Please use link below in order to go to "
+#~ "task management dashboard"
+#~ msgstr ""
+#~ "Tous les transferts ont été effectués. Vous pouvez utiliser le lien ci-"
+#~ "dessous pour vous rendre sur le tableau de bord"
+
+#~ msgid "%sGo on task manager dashboard"
+#~ msgstr "%sAllez sur le tableau de bord de gestion des tâches"
+
+#~ msgid "Ignore transfert - "
+#~ msgstr "Ignorer les transfert - "
+
+#~ msgid "Projects"
+#~ msgstr "Projects"
+
+#~ msgid "Manage datas transfert from digirisk V5.X"
+#~ msgstr "Gestion des transferts de données depuis digirisk V5.X"
+
+#~ msgid ""
+#~ "A required parameter is missing, please check your request and try again"
+#~ msgstr ""
+#~ "Un paramètre obligatoire est manquant, merci de vérifier votre demande et "
+#~ "de ré-essayer"
+
+#~ msgid ""
+#~ "Import will automatically continue while all elements won't be transfered "
+#~ "into database"
+#~ msgstr ""
+#~ "L'import continuera automatiquement tant qu'il restera des éléments à "
+#~ "transférer"
+
+#~ msgid ""
+#~ "All elements have been transfered to new storage way into wordpress "
+#~ "database. Now heavy datas will be transfered."
+#~ msgstr ""
+#~ "Tous les éléments ont été transférés vers le stockage de wordpress. "
+#~ "Aucune données lourdes n'a été transférée."
+
+#~ msgid "You are not allowed to use this service."
+#~ msgstr "Vous ne pouvez accéder à cette page."
+
+#~ msgid "Launch data transfer"
+#~ msgstr "Lancer le transfert"

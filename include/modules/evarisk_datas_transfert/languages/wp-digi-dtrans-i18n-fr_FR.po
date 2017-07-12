@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp projects management - V1.0\n"
+"POT-Creation-Date: 2015-01-29 09:28+0100\n"
+"PO-Revision-Date: 2015-01-29 09:28+0100\n"
+"Last-Translator: Eoxia developement team <dev@eoxia.com>\n"
+"Language-Team: Eoxia developement team <dev@eoxia.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:132
+#: ../templates/backend/tools.php:1
+msgid "Manage datas transfert from digirisk V5.X"
+msgstr "Gestion des transferts de données depuis digirisk V5.X"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:132
+msgid "Digirisk - transfer"
+msgstr "Digirisk - transfer"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:238
+msgid ""
+"A required parameter is missing, please check your request and try again"
+msgstr ""
+"Un paramètre obligatoire est manquant, merci de vérifier votre demande et de "
+"ré-essayer"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:261
+msgid ""
+"Import will automatically continue while all elements won't be transfered "
+"into database"
+msgstr ""
+"L'import continuera automatiquement tant qu'il restera des éléments à "
+"transférer"
+
+#: ../controller/wpdigi_dtransfert_ctr.php:281
+msgid ""
+"All elements have been transfered to new storage way into wordpress "
+"database. Now heavy datas will be transfered."
+msgstr ""
+"Tous les éléments ont été transférés vers le stockage de wordpress. Aucune "
+"données lourdes n'a été transférée."
+
+#: ../controller/wpdigi_dtransfert_ctr.php:282
+#: ../templates/backend/transfert-tasks.php:23
+msgid "Move documents and pictures"
+msgstr "Transférer les documents et images"
+
+#: ../templates/backend/transfert-tasks-dashboardlink.php:1
+#, php-format
+msgid "%sGo on task manager dashboard"
+msgstr "%sAllez sur le tableau de bord de gestion des tâches"
+
+#: ../templates/backend/transfert-tasks-dashboardlink.php:1
+msgid "Ignore transfert - "
+msgstr "Ignorer les transfert - "
+
+#: ../templates/backend/transfert-tasks.php:5
+msgid "Projects"
+msgstr "Projects"
+
+#: ../templates/backend/transfert-tasks.php:9
+msgid "Documents and pictures"
+msgstr "Documents et images"
+
+#: ../templates/backend/transfert-tasks.php:13
+msgid "Start using task manager"
+msgstr "Commencer à utiliser le gestionnaire de tâches"
+
+#: ../templates/backend/transfert-tasks.php:22
+msgid "Please wait while transfert is in progress"
+msgstr "Merci de patienter, le transfert est en cours"
+
+#: ../templates/backend/transfert-tasks.php:23
+msgid "Move tasks"
+msgstr "Déplacer les tâches"
+
+#~ msgid "Tasks"
+#~ msgstr "Tâches"
+
+#~ msgid "Manage datas transfer from digirisk V5.X"
+#~ msgstr "Gestion des transfers de données depuis digirisk V5.X"
+
+#~ msgid "You are not allowed to use this service."
+#~ msgstr "Vous ne pouvez accéder à cette page."
+
+#~ msgid "Launch data transfer"
+#~ msgstr "Lancer le transfert"

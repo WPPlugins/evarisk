@@ -1,0 +1,1327 @@
+a{ cursor:pointer; }
+.required{ color:#FF0000;	}
+.digi_textcenter{ text-align:center;	}
+
+.digi_clear{		clear:both;	}
+
+#divFormRisque .dataTables_wrapper {
+	min-height: 135px !important;
+}
+.digi_suivi_modif_action_col {
+	width: 10% !important;
+	text-align: center;
+}
+.digi_suivi_modif_elapsed_time_col {
+	text-align: center;
+}
+.digi_suivi_identifier_col {
+	width: 5% !important;
+}
+.digi_suivi_modif_cost_col {
+	width: 5% !important;
+}
+.digi_suivi_modif_export_col {
+	width: 10% !important;
+	text-align: center !important;
+}
+.digi_suivi_modif_action_col img {
+	width: 25px;
+	cursor: pointer;
+}
+#follow_up_id_user_performer_chzn {
+	width: 99% !important;
+}
+#follow_up_id_user_performer_chzn .chzn-drop{
+	width: 99% !important;
+}
+#follow_up_id_user_performer_chzn .chzn-drop .chzn-search input{
+	width: 100% !important;
+}
+.digi_suivi_modif_date_ajout_unformated {
+	display: none;
+}
+.project_follow_up_container label {
+	text-decoration: underline;
+	cursor: auto;
+}
+.project_follow_up_container input:disabled {
+	border: 0px solid #000000;
+}
+
+.digi_normal_pointer{	cursor:default !important;	}
+.element_identifier_recap{	margin:8px 0px;	}
+.digi_tree_complete_expander {
+	font-size: 16px;
+	font-weight: bold;
+}
+#mainPostBox {
+	margin-right: 10px;
+}
+.main_loading_pic_container{	margin:0px auto; width:90%; text-align:center;	}
+
+/*	Start standard page	*/
+.digirisk_main_table thead{ cursor:pointer; }
+.main_metabox_collapser{ float:right; width:30px; height:30px; }
+.main_metabox_collapser:hover{ background: url("../../../../../wp-admin/images/arrows.png") no-repeat scroll 6px 7px transparent !important; }
+.main_metabox_collapser_hover{ background: url("../../../../../wp-admin/images/arrows.png") no-repeat scroll 6px 7px transparent !important; }
+.digirisk_left_container{	float:left; width:49%;	}
+.digirisk_right_container{	float:right; width:50%;	}
+.digirisk_meta_box_holder{	padding:0px !important;	}
+.actionButtonList{	padding:0px !important;	}
+.actionButtonList .action_column_name{	font-size:14px; line-height:1.3em; padding:7px 7px 8px; text-align:right; float:left; width:60%;	}
+.main_page_options_container{	margin:12px 0px 0px;	}
+
+span.expander{ margin-right:5px !important;	}
+.digirisk_config_treetable span.expander{ margin:0px !important;	}
+.digirisk_config_treetable .nomFeuilleArbre{ padding-left:42px !important;	}
+/*	End standard page	*/
+
+/************************/
+/*	Autocomplete style	*/
+/************************/
+.auto-search-container{	float:right; width:80%;	}
+.auto-search-input{	float:right; width:60%;	}
+.auto-search-ui-icon{	float:right; background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png"); background-position: -160px -112px; width:16px; height:16px; margin:3px 0px;}
+.ui-autocomplete-loading { background: white url('../../medias/jquery_pics/ui-anim_basic.gif') right center no-repeat; }
+
+/*	Hyerarchy box	*/
+.auto-search-hierarchic-box .auto-search-container{	float:left; width:80%;	}
+.auto-search-hierarchic-box .auto-search-input{	float:left; width:60%;	}
+.auto-search-hierarchic-box .auto-search-ui-icon{	float:left; background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png"); background-position: -160px -112px; width:16px; height:16px; margin:3px 0px;}
+#current_hierarchy_display{	margin:35px 0px 0px;	}
+.hierarchy_element_selector_container{	float:left; background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png"); background-position: -160px 0px; min-width:18px; padding:0 0 0 2px;	}
+.hierarchy_selected_element{	background-color:#DDDDDD;	}
+
+.column-danger-code { width: 4%; }
+tr.odd td.check-column, tr.even td.check-column { padding: 7px; }
+.plus-column { font-weight : bolder; width: 10px; padding: 5px; }
+.column-danger-designation {  }
+.sans_puce { list-style-type: none; }
+.noPadding { padding: 0 !important;}
+.content_radio_picto_categorie{position : relative; width : 70px; height : 50px;  float : left; margin-bottom : 2%; margin-right : 1%}
+.radioPictoCategorie {position : absolute; width : 70px; height : 50px; z-index : 0;}
+.radioPictoCategorie img {vertical-align:middle; max-width:48px; cursor:pointer; z-index : 0;}
+.case_penibilite{
+	width : 43px;
+	height : 16px;
+	z-index : 1;
+	position : absolute;
+	top : 29px;
+	left : 13px; 
+	background-color : #58D3F7; 
+	border: 1px solid #0489B1;
+	opacity:0.7; 
+	filter : alpha(opacity=70);
+	-webkit-border-bottom-right-radius: 5px; 
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-size : 16px; 
+	color : #0A2229; 
+	font-weight : 900; 
+	text-align : right; 
+	padding-top : 1px; 
+	padding-right : 3px;
+	margin-left: 7px;
+}
+.digi_question_penibilite{	font-weight:bold; text-decoration:underline; }
+.choixDangerDefaut{	vertical-align:middle !important; }
+.choixPenibilite{	vertical-align:middle !important; }
+
+.white_background th{	background:none #FFFFFF !important;	}
+.tabcroisillon{	margin:6px 0px;	}
+.middleAlign{	vertical-align:middle !important; }
+.treeTable td {	vertical-align:middle;	}
+.treeTableGroupInfoColumn, .treeTableInfoColumn {	cursor:pointer;	}
+
+.edit-leaf img, .risk-leaf img, .delete-leaf img, .summary-leaf img, .docmanager-leaf img, .timepicker-leaf img{	cursor:pointer;	}
+.edit-node img, .risk-node img, .risq-node img, .summary-node img, .delete-node img, .addMain img, .addSecondary img, .docmanager-node img, .timepicker-node img{	cursor:pointer;	}
+
+.actionForExistingElement{	margin:3px 0px;	}
+.existingElementMainExplanation{	font-size:10px; margin:0px 0px 15px;	}
+
+#saveNewPosition{	margin:12px 0px; float:right;	}
+
+/*	Plugin installation		*/
+.digirisk_install_button_container{	margin:12px 36px; float:right;	}
+#digi_install_form fieldset{	margin:24px 0px; border-top:1px solid #000000; padding:9px 12px;	}
+.inrs_picto_container_install{	width:10%; text-align:center; height:110px;	}
+
+/* -- START WORK ACCIDENT -- */
+.digi_work_accident_part_separator{	margin:9px 0px 0px; padding:9px 0px 0px; border-top:1px solid grey !important;	}
+.digi_work_accident_part_separator legend{	font-weight:bold !important; padding:9px; font-size:13px; background-color:#D0D0D0; cursor:pointer;	}
+.digi_work_accident_part_separator .searchUserToAffect{	width:60% !important;	}
+.digi_work_accident_part_separator label{	font-style:italic; }
+
+.accident_part{	margin:9px 0px;	display:table; width:100%; }
+.accident_date{	float:left; margin:0px 9px 0px 0px;	}
+.accident_details_explanation{	font-size:10px; font-style:italic;	}
+.accident_victim_work_shedule_1{	float:left; margin:0px 64px 0px 12px;	}
+.accident_declaration_table{	width:100%;	}
+#accident_details label{	font-weight:bold !important;	}
+#infirmary_register{	width:100%;	}
+.accident_hurt{	width:90%; display:table; float:left; vertical-align:middle;	}
+.accident_hurt div{	width:48%;	}
+#add_new_hurt{	float:left; vertical-align:middle; margin:10px 12px 0px;	}
+#delete_selected_hurt_container{	display:none;	}
+.delete_selected_hurt{	float:left; vertical-align:middle; margin:10px 12px 0px;	}
+.accident_declaration_by_date_prefix, .accident_declaration_by_hour_prefix{	float:left; margin:6px 0px;	}
+.accident_declaration_made_by_prefix{	float:left; margin:6px 0px; width:40%;	}
+
+.accident_witness{	width:90%; display:table; float:left; vertical-align:middle;	}
+.accident_witness div{	width:48%;	}
+.alignwitness_adress{	width:80% !important;	}
+.accident_witness{	width:100% !important;	}
+.accident_third_party{	width:100% !important;	}
+#delete_selected_witness_container{	display:none;	}
+#ui_tpicker_hour_accident_date, #ui_tpicker_minute_accident_date{	width:65% !important;	}
+#ui_tpicker_hour_accident_declaration_date, #ui_tpicker_minute_accident_declaration_date{	width:65% !important;	}
+#work_accident_user_information{	width:100%;	}
+#work_accident_user_information td{	text-align:left;	}
+.no_user_available{	text-align:center; font-weight:bold;	}
+
+#work_accident_third_party_information{	width:100%;	}
+#work_accident_witnesses_information{	width:100%;	}
+
+#save_accident{	float:right; margin:18px 0px;	}
+
+.edit_missing_information{	font-weight:bold; font-size:9px; cursor:pointer;	}
+.accident_search_params{	margin:0px 18px;	}
+.wpshop_accident_action_column{	width:10% !important;	}
+.accident_container_opener{	background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: 0px -211px !important; width:16px; height:16px; margin:3px 0px;	}
+.accident_container_closer{	background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: -16px -211px !important; width:16px; height:16px; margin:3px 0px;	}
+.user_is_valid_for_accident{ color:green; text-align:center;	}
+.user_is_not_valid_for_accident{	color:red; text-align:center;	}
+.valid_accident_col{	width:15%;	}
+.valid_accident_col img{	vertical-align:middle;	}
+#victim_changer{	cursor:pointer;	}
+.accident_done_state_cell{ color:green;	}
+.accident_in_progress_state_cell{ color:orange;	}
+
+.accident_action_cell img{	cursor:pointer;	}
+/* -- END WORK ACCIDENT -- */
+
+
+
+/* -- START PERMISSION -- */
+.menuUserRight{	font-style:italic; font-size:9px; font-weight:bold;	}
+.sub_module{	margin-right:5px; float:left;	}
+.sub_module_name{	text-decoration:underline; font-weight:bold;	}
+.sub_module_content{	font-style:italic; }
+.permission_module_menu{	width:25% !important;	}
+.permissionGranted{	color:green;	}
+.permissionGrantedFromParent{	color:blue;	}
+.userForbiddenActionCursor{	cursor:url("../../medias/images/Icones/forbidden_vs.png"),auto;	}
+
+.digirisk_user_role_column_name{	width:60px !important;	}
+.digirisk_user_role_column_action{	width:60px !important; text-align:right !important;	}
+.digirisk_user_role_cell_action{	text-align:right !important;	}
+.digi_permission_category_name{ font-weight:bold; }
+.digi_permission_explanation{	margin:6px 0px 0px 0px; font-size:11px; font-style:italic;	}
+.digi_permission_check_all{	margin:6px 0px 0px 0px; font-size:10px; font-style:italic;	}
+.checkall, .uncheckall, .checkall_link, .uncheckall_link, .checkall_right, .uncheckall_right{	cursor:pointer;	}
+
+.rightColumn{	width:30px; text-align:center !important;	}
+.rightCell{	text-align:center;	}
+.userAffecte{	background-color:#99FF66;	font-weight:bold; }
+.userAffecteExplanation{	margin:6px 3px; padding:6px 0px; text-align:left; width:70%; }
+
+.userTableContainer {	height:200px !important; overflow:auto !important;	}
+#userPermissionManagerForm .userTableContainer {	height:auto !important; overflow:auto !important;	}
+
+.noRight{	text-decoration:line-through;	}
+.userRightMassManagement{	margin:18px 0px 0px 0px;	}
+
+
+.checkAll_user_, .uncheckAll_user_, .checkAll_user_affected_, .uncheckAll_user_affected_{ cursor:pointer; margin:0px 0px 6px;	}
+
+.userRightManagement_overflow{	overflow-y:scroll;	}
+
+#evaUserInformation div label		{	width:15em;	}
+/* -- END PERMISSION -- */
+
+/* -- START TRASH -- */
+.elementTrashContainer{	border-top:1px solid grey !important; margin:12px 0px; min-height:150px;	}
+.elementTrashContainer th{	background: none #FFFFFF !important;	}
+.elementTrashContainer  .dataTables_wrapper{	min-height:150px;	}
+.trashContentCenter{	text-align:center; width:80%; margin:12px auto;	}
+.trashActionColumn{	width:20% !important;	}
+.trashPicColumn{	width:10% !important;	}
+/* -- END TRASH -- */
+
+.dataTables_length{	width:50% !important;	}
+.dataTables_paginate{	margin:12px 24px;	}
+.dataTables_filter{	float:right;	}
+.dataTables_filter .ui-icon{	float:left;	}
+.dataTables_filter input{	float:left;	}
+.searchDataTableIcon{	background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: -160px -112px !important; width:16px; height:16px; margin:3px 0px;}
+.deleteLinkBetwwenRiskAndPicture{	background: url("../../medias/jquery_pics/ui-icons_cd0a0a_256x240.png") !important; background-position: -80px -128px !important; width:16px; height:16px;	}
+
+.editDataTableRow{	cursor:pointer;background-position:-64px -112px;	}
+.closeLightBoxContainer{	height:16px;font-size:9px;float:right;margin:0px 0px 3px;cursor:pointer;	}
+.closeLightBoxIcon{	background-position: -80px -128px !important; }
+.hide, .digirisk_hide{	display:none;	}
+.marginSideAuto{	margin:0px auto;}
+.marginBotTopAuto{	margin:auto 0px;}
+.noResultInBox{	margin:6px auto; width:60% !important; font-weight:bold;	}
+.italic{	font-style:italic;	}
+
+#divFicheDePoste{	padding:12px 3px;	}
+
+.messageIcone{	vertical-align:middle;	}
+.evaMessage{	width:60%;margin:0px auto !important;text-align:center !important;padding:6px 0px !important;	}
+
+
+/* -- Boutons choix affichage enlarging -- */
+#choseEnlarging{display: inline; vertical-align: top; margin-bottom:12px; margin-left:10px;}
+#choseEnlarging span{margin:0 10px;}
+#choseEnlarging span#rightEnlarging {height:19px; width:32px;background:url(../../medias/images/Icones/Divers/btn_rightEnlarging.png) !important;display:inline-block;cursor:pointer;}
+#choseEnlarging div#enlarging{display:inline-block;}
+#choseEnlarging div#enlarging.ui-slider-horizontal {width:100px;}
+#choseEnlarging span#leftEnlarging {height:19px; width:32px;background:url(../../medias/images/Icones/Divers/btn_leftEnlarging.png) !important;display:inline-block;cursor:pointer;}
+/* -- END Boutons choix affichage enlarging -- */
+
+.titleInput{font-size:1.3em;}
+div.inside{overflow: hidden; padding: 5px;}
+/* -- Fiche Droite --*/
+.partieDroite { border-left:1px solid #CCCCCC; padding-left : 0.5%; }
+/* -- END Fiche Droite --*/
+
+/* -- Listes format grille -- */
+.listeEnLigne li { float: left; padding:5px; width:30.15%; margin: 0; border-right:1px solid #DFDFDF; }
+
+.containerElement td { border:1px solid #DFDFDF; border-top:none; border-bottom:none;}
+.containerElement .nomInfoElement { border-right:none; padding-bottom:0.5em; padding-top:0.5em; vertical-align: middle;}
+.containerElement .deuxPoints { border:none; text-align: center; padding: 0 !important; vertical-align: middle;}
+.containerElement .valeurInfoElement { border-left:none; text-align: right; vertical-align: middle;}
+.containerElement .pagination { border:1px solid #DFDFDF;}
+
+.containerElement p { padding:5px;}
+
+.element { padding : 5%;}
+
+.nomElement { text-align: center; font-weight: bold;}
+.edited { background-color: #F3F3F3;}
+
+.photoElement { text-align: center;}
+.photoElement img { max-width: 100%;}
+
+.cbColumnLarge { width: 10%;}
+.cbNbUserGroup { width: 15%;}
+.icon32 img{ width:36px; }
+/* -- END Listes format grille -- */
+
+/* -- Boutons SELECT EDIT --*/
+.boutonInfos { float: right;text-align: center;display: block;width: 80px;margin-top: 3%;margin-right:3%; }
+.boutonInfos img{ vertical-align: middle; padding-right:5px; }
+
+#boutonAvanceRisque:hover { cursor:pointer; color:#8B0304; }
+/* -- END Boutons SELECT EDIT -- */
+
+#filAriane {margin:15px 0px 5px 0px;font-size:12px; }
+
+/* -- Boutons choix affichage -- */
+#choixAffichage { display:inline;margin:5px 0px; }
+
+#choixAffichage span.textAffichage {
+	text-decoration:underline;
+}
+
+#choixAffichage a.selectedAffichage {
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+}
+
+#choixAffichage a:hover.selectedAffichage {
+	cursor:auto;
+}
+
+#choixAffichage a {
+	text-decoration:none;
+	color:#000000;
+}
+
+#choixAffichage a:hover {
+	text-decoration:none;
+	font-weight:bold;
+	cursor:pointer;
+}
+/* -- END Boutons choix affichage -- */
+
+
+.textPagination{
+	text-align: right;
+	width: 5%;
+}
+
+.flechePere{
+	float: left;
+	height: 26px;
+	margin-left:5px;
+	width:25px;
+	cursor:pointer;
+}
+
+.nomFeuilleArbre
+{
+	cursor:pointer;
+}
+.nomNoeudArbre
+{
+	cursor:pointer;
+}
+.cursormove
+{
+	cursor:move;
+}
+
+.postbox .handlediv {
+	margin-left:20px;
+}
+
+/* -- Menu AJOUTER -- */
+.favorite-action {
+	float:right;
+	margin: 1px;
+	position:relative;
+}
+
+.favorite-first {
+	-webkit-border-radius:12px 12px 12px 12px;
+	-moz-border-radius:12px 12px 12px 12px;
+	border-radius:12px 12px 12px 12px;
+	background: url("../../medias/image/fav.png") repeat-x scroll left center #797979;
+	border-color: #777777 #777777 #666666 !important;
+	border-style:solid;
+	border-width:1px;
+	line-height:15px;
+	padding:3px 30px 4px 12px;
+	width:70px;
+}
+
+.favorite-first a:hover {
+	cursor:default;
+	color:#DDDDDD!important;
+}
+
+.favorite-inside {
+	-webkit-border-radius:0 0 12px 12px;
+	-moz-border-radius:0 0 12px 12px;
+	border-radius:0 0 12px 12px;
+	background-color: #797979;
+	border-color: #797979;
+	border-style:solid;
+	border-width:1px;
+	display:none;
+	margin:0;
+	padding:0 1px 6px;
+	position:absolute;
+	z-index:11;
+}
+
+.favorite-inside a {
+	padding:3px 5px 3px 10px;
+}
+
+.favorite-inside a:hover {		text-decoration: underline;	}
+
+.favorite-toggle {		background: url("../../medias/images/Icones/Divers/fav-arrow.gif") no-repeat scroll 0 -4px transparent;		height:22px;		position:relative;		right:0;		top:1px;		width:28px;		cursor:pointer;	}
+
+.favorite-actions .slide-down {		-webkit-border-radius:12px 12px 0 0;		-moz-border-radius:12px 12px 0 0;		border-radius:12px 12px 0 0;		border-bottom-color: #626262;		border-bottom-style:solid;		border-bottom-width:1px;	}
+
+.favorite-actions {		float:right;		margin: 1px;		position:relative;	}
+
+.favorite-actions a {		display:block;		font-size:11px;		text-decoration:none;		color: #DDDDDD;	}
+
+.favorite-actions a:hover {		color: #FFFFFF;	}
+/* -- END Menu AJOUTER -- */
+
+
+/* -- Liste cat�gorie danger -- */
+.expander{		display: none;	}
+.aFils .expander{		display: inline;	}
+.actionButtonList{		width: 20%;	}
+.infoList{		width: 20%;	}	
+/* -- END Liste cat�gorie danger -- */
+
+
+/* -- Galery photo -- */
+ul.thumbs li	{		display: inline-block; width:20%;	}
+ul.thumbs a.thumb	{		color:#000000; text-decoration:none;	}
+ul.thumbs img	{		max-width: 80%;	}
+div.galeryPhoto	{		width: 100%;	}
+div.slideshow a	{		text-decoration: none;	}
+div.slideshow img	{		max-width: 100%;		margin-bottom: 3px;	}
+.bottom.pagination	{		background-color: transparent;		border: 0;		padding: 10px;	}
+.bottom.pagination a	{		margin: 3px;	}
+.caption-container	{		float:right;		background-color:#F5F5F5;		padding:10px;	}
+.caption-container img	{		vertical-align:middle;	}
+.pictureDeletion, .pictureDefaultSelection	{		cursor:pointer;	}
+.caption div	{		cursor:pointer;	}
+.galeryPhoto .navigation	{		text-align:center;	}
+/* -- END Galery photo -- */
+
+
+/* -- Veille r�f�rentiel -- */
+.listeCreationVeille li	{		display: inline;		margin-right: 60px;	}
+.veille-reponse-titre	{		font-weight:bold;	}
+.veille-reponse-extraitTexte	{		border:1px solid #000000;		background-color:#FFFFCC;		text-align:justify;		font-size:11px;		margin:0px 24px;		padding:3px;	}
+.veille-response-container	{	}
+.veille-reponse-response	{		font-size:14px;		margin:0px 0px 9px 0px;	}
+.veille-response	{		margin:0px 12px 0px 0px;	}
+.veille-response-input	{		width:50px;	}
+.veille-right-menu li	{		border:1px solid #E3E3E3;		color:#21759B;		background-color:#F2F1EF;		font-size:11px;	}
+
+.observationTropLongue	{		vertical-align: top;	}
+/* -- END Veille r�f�rentiel -- */
+
+
+/* -- Partie droite -- */
+.titleDiv /* bient�t � enlever*/	
+{		font-size: 1.3em;		font-weight: bold;	}
+.titleInfo	{		font-size: 1.3em;		font-weight: bold;		border: none !important;		background-color: transparent !important;	width:150%;	}
+.titleInfo:hover	{		border: 1px solid #646464 !important;	cursor:pointer !important;	}
+.titleInfoSelected	{		border: 1px solid #646464 !important; }
+.mainInfos2	{		text-align: center;	}
+/* -- END Partie droite -- */
+
+
+/* -- Risques -- */
+.risqueInfo	{		-webkit-border-radius:12px;		-moz-border-radius:12px;		border-radius:12px;	}
+.risque1Info, .Seuil_1	{		color: black !important;		background-color: white !important;	}
+.risque2Info, .Seuil_2	{		color: white !important;		background-color: orange !important;	}
+.risque3Info, .Seuil_3	{		color: white !important;		background-color: red !important;	}
+.risque4Info, .Seuil_4	{		color: white !important;		background-color: black !important;	}
+.risque5Info, .Seuil_5	{		color: white !important;		background-color: red !important;	}
+.risque6Info, .Seuil_6	{		color: white !important;		background-color: black !important;	}
+.risque2Text	{		color: orange !important;	}
+.risque3Text	{		color: red !important;	}
+.risque4Text	{		color: black !important;	}
+.risque5Text	{		color: red !important;	}
+.risque6Text	{		font-size : 1.7em;		font-weight : bolder;		color: black;	}
+
+.columnRId{	width:5% !important; vertical-align : middle !important;	}
+.columnQuotation{	width:10%; vertical-align : middle !important;	}
+.columnNomDanger,
+.columnEtat	{		width: 16%;		padding: 1px !important;		vertical-align : middle !important;	}
+.columnPhoto{
+	width: 8% !important;
+}
+
+.columnDescriptionDanger	{		width: 26%;		padding: 1px !important;		vertical-align : middle !important;	}
+
+.columnCommentaireRisque	{		width: 40%;		padding: 1px !important;		vertical-align : middle !important;	}
+
+.columnNomElementMassUpdater	{	width:10%; font-size:10px;	}
+.columnQuotationMassUpdater	{	width:10%; font-size:11px; text-align:center;	}
+.columnRIdMassUpdater	{	width:8%; font-size:11px; text-align:center;	}
+.columnNomDangerMassUpdater	{	width:10%; font-size:10px;	}
+.columnCommentaireRisqueMassUpdater	{	width: 40%;	}
+.columnCommentaireRisqueMassUpdater textarea, .columnActionPrioritaireRisqueMassUpdater textarea{		width: 98%;	}
+.columnActionPrioritaireRisqueMassUpdater{	text-align:center; vertical-align:middle;	}
+.columnCBRisqueMassUpdater{	width:2%; vertical-align:middle !important;	}
+.columnDatesMassUpdater{	width:18%;	}
+.cellDatesMassUpdater { padding:0px !important; }
+.risqMassUpdaterChooserExplanation{	margin:6px 0px 0px 0px; font-size:11px; font-style:italic;	}
+.massUpdaterChecbkoxAction{	font-size:11px; cursor:pointer;	}
+
+#risqMassUpdater .dataTables_wrapper{	min-height:50px;	}
+#risqMassUpdater{
+	padding: 0px !important;
+	overflow: hidden;
+}
+#mass_update_button_pane_helper {
+	margin-right: 20px;
+}
+.no-close .ui-dialog-titlebar-close {display: none }
+.massUpdaterListing{	overflow:auto !important; height: 90%;	}
+
+#divVoirRisques{	padding:9px 0px 3px 4px;	}
+#formRisque{	margin:0px 0px 3px 4px;	}
+#formRisque fieldset {
+	border-top: 1px solid #000000;
+	padding: 0px 9px 15px 0px;
+}
+#formRisque fieldset legend {
+	padding: 9px;
+	font-weight: bold;
+}
+.digi_histo_risk_table{
+	width: 100%;
+}
+.digi_histo_risk_table tr td{
+	text-align: center;
+}
+#risqManagementselector{	margin:0px 0px 12px;	}
+#addRisqNormalMode, #addRisqAdvancedMode{ margin:3px 9px; padding:3px 9px; border:1px solid #DDDDDD; background-color:#E6E6E6; cursor:pointer; }
+#addRisqNormalMode.selected, #addRisqAdvancedMode.selected{ text-decoration:underline; background-color:#FFFFFF; font-weight:bold; }
+
+.checkboxRisqMassUpdaterSelector_top, .checkboxRisqMassUpdaterSelector_bottom{	width:18px; vertical-align:middle; margin:0px 12px;	}
+.checkboxRisqMassUpdaterSelector_top{	margin-top:5px;	}
+.checkboxRisqMassUpdaterSelector_bottom{	margin-bottom:10px;	}
+
+.risk_line_action img{	margin:0px 2px;	}
+.columnAction {	text-align:center !important;	}
+.columnAction.risk_line_action {	text-align: right !important;	}
+
+.risk_line_action img{	cursor:pointer;	}
+.columnQuotation, .columnRId	{		text-align: center !important;	}
+/*,
+th.columnNomDanger,
+th.columnEtat,
+th.columnDescriptionDanger,
+th.columnCommentaireRisque*/
+
+.explicationVariable	{		border:1px solid #000000;		background-color:#FFFFCC;		text-align:justify;		font-size:11px;		margin:1% 24px;		padding:3px;	}
+#pictureToAssociateToRisk .qq-uploader .qq-upload-button{		width:90% !important;		padding:7px;	}
+.deleteLinkBetweenRiskAndPicture{	background: url("../../medias/jquery_pics/ui-icons_cd0a0a_256x240.png"); background-position: -80px -128px;	width:16px;height:16px;}
+.riskPictureThumbs{	max-width: 20%;	}
+
+#choixMethodeEvaluation{	clear:both;	}
+.risk_description_container div{	margin:6px 0px;	}
+
+#add_picture_alert .current_risk_summary_task{	width:90%; margin:9px auto;	}
+#add_picture_alert .new_risk_summary_task{	width:90%; margin:9px auto;	}
+.new_risk_summary_task table tr th{	background:none #FFFFFF !important;	}
+.current_risk_summary_task{	margin:9px 3px;	}
+.current_risk_summary_task table tr th{	background:none #FFFFFF !important;	}
+
+.risk_controlled_task_list{	margin:3px auto; width:90%;	}
+.risk_controlled_task_list_check{	width:3%;	}
+.risk_not_controlled_task_list{ width:100%;	}
+.risk_not_controlled_task_list_check{	width:3%;	}
+
+.risk_date_change {
+	margin: 0 0 4px 0!important;
+}
+.risk_date_change li {
+	display: inline-block;
+	width: 30%;
+}
+.digi_use_current_date, .digi_use_current_date_for_risk {
+	padding: 0 4px 0 2px;
+	border: 2px solid #000;
+	border-radius: 13px;
+	margin: 0 4px;
+}
+
+.qr_current_risk{	width:70%; margin:30px auto; background-color: #CCCCCC;	}
+.qr_current_risk div:first-child{ padding: 2px 4px; }
+.qr_risk{	margin: 0px auto; text-align:center; float:right; padding: 2px 4px;	}
+
+.eval_method_var{ width:30%; float:left; /* min-height:250px; */	}
+.eval_method_explanation{	width:70%; float:right; text-align:center; padding:13px 0px;	}
+.digi_eval_pic{	width:100%;	max-height: 260px; }
+
+.evaluation_var_slider_container{	margin-bottom:12px;	}
+
+.digirisk_danger_cat_identifier{	display:none; margin:0 auto; width:75%; text-align:right;	}
+
+#voir_risque_box_header{	margin:0px 12px 22px 0px; float:left;	}
+#add_new_risk_button{	margin:0px 0px 12px;	}
+#divPreconisationExistante table{	width:95%;	}
+#divPreconisationExistante{	margin:0px 0px 12px;	}
+
+#divHistoRiskwp_eva__risque{	min-height:320px; padding:12px;		}
+.risk_histo_chart{	height:300px; margin:12px 0px;}
+
+.risq_mover_container{	float:right; font-style:italic; font-size:10px; width:60%;	}
+#risq_mover_title{	cursor:pointer;	}
+#move_risk, #copy_risk{	text-align:center !important;	}
+
+.digirisk_risk_level_control_action_less{	background-color:green; color:white !important; vertical-align:middle !important;	}
+.digirisk_risk_level_control_action_equal{	background-color:orange; color:white !important; vertical-align:middle !important;	}
+.digirisk_risk_level_control_action_more{	background-color:red; font-weight:bold; vertical-align:middle !important;	}
+.digirisk_control_action_legend a, .digirisk_control_action_legend a:hover{ text-decoration:none; cursor:auto; color:#000000; }
+.digirisk_control_action_legend li{ float:left; margin:0px 6px; }
+.digirisk_control_action_legend li span{ padding:6px; }
+/* -- END Risques -- */
+
+
+/* -- Tabs -- */
+.eva_tabs_panel	{		border-color:#DFDFDF;		border-style:solid;		border-width:1px;		overflow-y:auto; overflow-x: hidden;		padding:0px;		margin:0px;	}
+ul.eva_tabs	{		margin-top:12px;	}
+ul.eva_tabs li	{		border-style:solid solid none;		-webkit-border-radius:3px 3px 0 0;		-moz-border-radius:3px 3px 0 0;		border-radius:3px 3px 0 0;		padding:5px 8px;		border-color:#DFDFDF;		background-color : #E6E6E6;		border-width:1px 1px 0;		margin-bottom:3px;		margin-top:12px;	}
+ul.eva_tabs li label	{		font-weight:bold;		text-decoration:none;	}
+ul.eva_tabs li.selected_tab	{		background-color : #F6F6F6;	}
+ul.eva_tabs_button li	{		-webkit-border-radius:1em;		-moz-border-radius:1em;		border-radius:1em;		/*background-color:#F6F6F6;*/	}
+ul.eva_tabs_button 	{		margin-bottom:8px;	}
+ul.eva_tabs_button li label	{		padding-bottom:3px;	}
+.tabs{	display:inline; margin-left:0.4em;	}
+.ui-tabs{	padding:0px !important; }
+.ui-tabs .ui-tabs-nav{	padding:0px !important;	}
+#evaDashboard_vracStats .inside {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+/* -- END Tabs -- */
+
+
+/* -- Sliders -- */
+.sliderValue	{		border:0 none !important;		background:none !important;		font-weight:bold;		width:15%;	}
+.slider_variable	{		width: 100px;	}
+/* -- END Sliders -- */
+
+
+/* -- Setup -- */
+#evariskSetup	{		width: 98%;	}
+#evariskSetup td	{		border-bottom : solid 10px transparent;	}
+
+.setupTitle	{		width: 20%;	}
+
+.cbSetup	{		float: left;	}
+.cbEPISetup	{		margin-left: 5%;	}
+/* -- END Setup -- */
+
+
+/* -- Upload -- */
+.thumbnailUpload	{		max-width: 200px;	}
+.thumbnailUpload img	{		width: 100%;	}
+/* -- END Upload -- */
+
+
+/* -- Actions correctives -- */
+#informationGeneralesTache .inputCategorieMere	{		margin:6px 0px;		width:100%;	}
+#informationGeneralesActivite .inputCategorieMere	{		margin:6px 0px;		width:100%;	}
+
+#needDangerCategory .ui-tabs .ui-tabs-nav {		padding:0px;	}
+#needDangerCategory .ui-tabs .ui-tabs-nav li {		margin:0px;	}
+#needDangerCategory .ui-tabs .ui-tabs-nav li a {		padding:0.1em;	}
+#needDangerCategory .ui-tabs .ui-tabs-panel{		padding:0.3em;	}
+.fieldInfo{		font-style:italic;		font-size:10px;	}
+#date_debut_activite, #date_fin_activite{		clear:both;	}
+.pointer{		cursor:pointer;	}
+.ui-slider-horizontal{	width:95%;	}
+.ui_tpicker_hour.ui-slider-horizontal, .ui_tpicker_minute.ui-slider-horizontal{	width:68%;	}
+#photosActionsCorrectives li.selected img{	border:1px solid #000000;	}
+.pictureThumbs{	width:80%;	}
+.preconisationExistante{	border:1px solid #DDDDDD; width:95%; padding:3px 6px;	}
+.preconisation{	margin-left:9px; font-size:10px; text-decoration:underline;	}
+#taskExportButton{	margin:0px 12px;	}
+
+.columnCollapser{	width:2% !important; }
+.columnVariableRisque{	width:5% !important; text-align:center;	}
+#suiviActionsCorrectiveElement_wrapper{	margin:9px 0px;	}
+td.details{	background-color:#FFFFFF !important; padding:0px !important;	}
+td.details table{	margin:0px 0px 24px !important;	}
+.loadAssociatedTask_elt_name{	padding:0px 15px 0px !important;	}
+#suiviActionsCorrectiveElement th{ background:none #FFFFFF !important; }
+.CorrectivActionFollowStateActionColumn{	width:8%;	}
+.CorrectivActionFollowStateActionColumn img{	cursor:pointer;	}
+.correctiveActionSelecteduserOP{	padding:3px 6px; background-color:#DDDDDD; margin:0px 6px 3px; white-space:no-wrap; float:left;	-webkit-border-radius:1em;	-moz-border-radius:1em;	border-radius:1em;}
+.correctivActionDetailsFieldName{	text-decoration:underline; font-weight:bold; padding:3px;	}
+.correctiveActionFollow .dataTables_wrapper{		min-height:50px;	}
+.correctivActionPicture{	text-align:center;	}
+#correctionActionPictureTable{	width:100%;	}
+
+.ac_responsable{	width:99% !important;	}
+#responsible_name{	padding:0px 18px;	}
+.change_ac_responsible, .delete_ac_responsible{	cursor:pointer; font-weight:bold; font-style:italic;	}
+
+#risk_priority_task{	width:90% !important; margin:3px 18px;	}
+#risk_priority_task td{	height:1.5em;	}
+
+.digi_correctiv_action_link_container{	margin:18px 0px;	}
+
+.ui-widget-content a.required{	color:red !important;	}
+
+.digi_extra_infos_ac_control{	width:90%; padding:6px; margin:0px auto; background-color:#EEEEEE;	}
+.correctiv_action_efficiency_control{	width:10%; border:0px solid black !important;	}
+.correctiv_action_efficiency_control_slider{	width:90%; clear:both; margin:5px 0px 0px 5px;	}
+.cancel_correctiv_action_link{	margin:6px;	}
+
+.associate_task{	font-weight:bold;	}
+
+#divVariablesFormRisque-simpleFAC-fieldset{	display:table; margin:12px 0px;	}
+
+.asked_action_control{	margin:0px 0px 22px;	}
+.asked_action_control_details{	width:95%; margin:10px auto;	}
+
+.digi_correctiv_action_document_list {	 }
+#digi_ac_allow_front_ask {
+	float: left;
+}
+#associated_task_container {
+	width: 80%;
+	float: left;
+	margin: 0px 15px;
+}
+/* .digi_ac_allow_front_ask_code_container, .digi_ac_create_only_task {
+	margin: 0px -70px;
+} */
+#digi_ac_front_ask_parent_task_id_chooser {
+	width: 40%;
+	float: none;
+}
+#digi_ac_control_action_affectation_chooser {
+	width: 60%;
+	float: none;
+}
+#digi_option_delete_associated_task_to_frontend_form, #digi_option_delete_associated_task_to_control_task {
+	color: red;
+	font-size: bold;
+	cursor: pointer
+}
+
+.digi_action_start_date, .digi_action_end_date, .digi_action_cost, .digi_action_planned_time {
+	width: 48%;
+	float: left;
+}
+
+.digi_action_start_date input, .digi_action_end_date input, .digi_action_cost input {
+	width: 60%;
+}
+.digi_action_responsible .ac_responsable {
+	margin: 0px 0px 12px;
+}
+.digi_action_created_by_infos {
+	float: right;
+}
+.digi_ac_project_elapsed_time_comment {
+	margin: 9px 0px 0px 0px;
+}
+#digi_ac_project_follow_up {
+	float: left;
+}
+#digi_ac_project_follow_up .dataTables_scrollHead {
+	clear: both;
+}
+#digi_ac_project_follow_up td {
+	padding: 4px !important;
+}
+#digi_action_follow_up_elapsed_time {
+	font-style: italic;
+}
+#digi_action_follow_up_elapsed_time input, #cout_reel {
+	border: 0px solid #000000;
+	background-color: transparent !important;	
+}
+.digi_suivi_modif_heure {
+	width: 65px;
+}
+.digi_suivi_modif_action_col {
+	width: 50px;
+}
+
+label.digi_alert, .digi_alert label, span.digi_alert {
+	color: red;
+	font-weight: bold;
+}
+/* -- END Actions correctives -- */
+
+
+/* -- START USER GROUPS -- */
+.digirisk_user_groups_column_action{	width:60px !important;	}
+.digiriskUserGroupEditionName{	font-style:italic; text-decoration:underline;	}
+.digiriskUserGroupDetails{	width:70%;	}
+/* -- END USER GROUPS -- */
+
+
+/* -- START USER PROFIL -- */
+.user_combo{	width:27em;	}
+#digi_user_list{ width:80% !important; }
+
+.user_affected_element{	background-color:#C0C0C0; padding:3px 6px; cursor:pointer;	}
+.user_affected_element a{	 text-decoration:none;	}
+.affected_element_to_user_final_container{	margin:0px 0px 32px 0px;	}
+.affected_element_line{	margin:4px 0px 10px;	}
+.element_identifier{	 }
+.user_selector{	width:80%; margin:24px auto 71px auto; }
+.user_affecation_picto, .user_affectation_picto {
+	width:30px;
+}
+.user_affecation_element_container{	margin:0px 0px 0px 35px;	}
+.user_element_view_container{	float:left; margin:0px 0px 0px 6px;	}
+.user_element_view{	background-image: url("../../medias/images/Icones/Divers/icon-maximize.png") !important; width:25px; height:25px; background-repeat: no-repeat !important; background-size: 90%;	}
+.user_element_detail_opener{	background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: 0px -208px !important; width:16px; height:16px;	}
+.user_element_detail_closer{	background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: -16px -208px !important; width:16px; height:16px;	}
+.line_title{	cursor:pointer;	}
+.detail_line{	margin:0px 0px 0px 16px;	}
+/* -- END USER PROFIL -- */
+
+/* -- START USER IMPORT -- */
+.digirisk_import_user_easy_form_container{	width:99%; border-collapse:collapse; 	}
+.digirisk_import_user_easy_form{	width:99%; border-collapse:collapse; 	}
+.digirisk_import_user_easy_form td input[type=text], .digirisk_import_user_easy_form td select{	width:99%;	}
+.userLinesToCreate{	height:100%;	}
+#domaineMail{	width:65%;	}
+.user_rapid_import_button, .user_import_button{	width:60%; margin:12px auto; text-align:right;	}
+.user_import_container_opener{	background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: 0px -211px !important; width:16px; height:16px; margin:3px 0px;	}
+.user_import_container_closer{	background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: -16px -211px !important; width:16px; height:16px; margin:3px 0px;	}
+#complementary_fieds .required{	color:#000000 !important; font-weight:normal !important;	}
+#complementary_fieds table{	width:100% !important;	}
+#complementary_fieds table th{	text-align:left !important; width:35%;	}
+#complementary_fieds_switcher{	font-weight:bold;	}
+.digi_import_user_main_info_name{	width:20%;	}
+.digi_import_user_main_info_input{	width:30%;	}
+.aligndigi_user_immatriculation{	float:left; }
+.digi_import_user_additionnal_field{	font-size:9px;	}
+.digi_mandatory_fields_container{	vertical-align:top; width:50%;	}
+/* -- END USER IMPORT -- */
+
+
+/* -- START LINK USER ELEMENT -- */
+.userListOutput{	height:230px;	width:100%;	overflow:auto;	padding:3px 0px; margin:6px 0px;	}
+.deleteduserOP{	min-width:150px; padding:3px 6px; background-color:#E09E9E; margin:0px 6px 3px; white-space:no-wrap; float:left;	-webkit-border-radius:1em;	-moz-border-radius:1em;	border-radius:1em;}
+.selecteduserOP{	min-width:150px; padding:3px 6px; background-color:#DDDDDD; margin:0px 6px 3px; white-space:no-wrap; float:left;	-webkit-border-radius:1em;	-moz-border-radius:1em;	border-radius:1em;}
+.unSelecteduserOP, .selecteduserOP:hover{	text-decoration:line-through; cursor:pointer; color:#CC0000;	}
+.deleteUserFromList{	float:right; background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: -80px -128px !important; width:16px; height:16px;	}
+.deleteUserFromList:hover{	float:right; background: url("../../medias/jquery_pics/ui-icons_cd0a0a_256x240.png") !important; background-position: -80px -128px !important; width:16px; height:16px;	}
+
+.searchUserToAffect{	float:left; width:90%; color:#888888;	}
+.searchUserInput{	float:left; background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png"); background-position: -160px -112px; width:16px; height:16px; margin:3px 0px;}
+
+.userIsLinked{	background: url("../../medias/jquery_pics/ui-icons_66cc33_256x240.png") !important; background-position: -64px -144px !important; width:16px; height:16px;}
+.userIsLinked:hover, .unlinkUser{	background: url("../../medias/jquery_pics/ui-icons_cd0a0a_256x240.png") !important; background-position: -80px -128px !important; width:16px; height:16px;}
+.userIsNotLinked{	background: url("../../medias/jquery_pics/ui-icons_888888_256x240.png") !important; background-position: -96px -144px !important; width:16px; height:16px;}
+.userIsNotLinked:hover, .linkUser{	background: url("../../medias/jquery_pics/ui-icons_888888_256x240.png") !important; background-position: -64px -144px !important; width:16px; height:16px;}
+
+.addLinkUserElement{	padding:3px 0px;	}
+.addUserButtonDTable{	width:5%;	}
+.completeUserList{	height:190px; overflow:auto;	}
+.completeUserList .odd, .completeUserList .even{	cursor:pointer;	}
+
+.checkAll, .uncheckAll{ font-size:9px;cursor:pointer;	}
+
+.userIdentifierColumn{	width:8%;	}
+.userNotificationIdentifierColumn{	width:3.5%;	}
+.rightBorder{	border-right:1px solid #C0C0C0 !important;	}
+.bottomBorder{	border-bottom:1px solid #C0C0C0 !important;	}
+
+.ac_results li{	color:#242424 !important;	}
+.ac_over {		background-color:#DDDDDD !important;	}
+
+.user_affectation_date {
+	width: 85%;
+	margin: 0px auto;
+	font-size: 9px;
+}
+.digi_affected_user_list_options_container {
+	width: 90%;
+	margin: 0 auto;
+}
+/* -- END LINK USER ELEMENT -- */
+
+
+/* -- Options -- */
+.optionsActionColumn{	width:30px !important;	}
+
+.digi_user_extra_field{	clear:both;	}
+.user_extra_fields{	clear:both; font-size:13px;	}
+#delete_digi_user_extra_field_container{	display:none;	}
+#digirisk_options_container #digirisk_options_general th, #digirisk_options_container #digirisk_options_user th, #digirisk_options_container #digirisk_options_arbo th, #digirisk_options_container #digirisk_options_risk th, #digirisk_options_container #digirisk_options_worksheet th, #digirisk_options_container #digirisk_options_correctivaction th, #digirisk_options_container #digirisk_options_recommandation th{	width:45% !important; padding:2px;	}
+#digirisk_options_container td{	padding:2px;	}
+#taille_photo_poste_fiche_de_poste{	width:46px;	}
+#digirisk_options_container .form-table{		margin:0px 12px !important;	}
+#digirisk_options_container .ui-tabs-panel{	min-height:350px;	}
+#digirisk_options_container .ui-widget-header{background:none #FFFFFF !important; border-top:0px; border-left:0px; border-right:0px;	border-bottom:1px solid #C0C0C0;	}
+.digirisk_options_categories_list{	margin-left: 1.3em;	}
+.evarisk_options_explanation{	font-weight:bold; font-style:italic;	}
+#options_tabs{	border:0px;	}
+#options_tabs:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.digi_allowed_extension_for_AC_fieldset{	border:1px solid #C0C0C0;	width:60%; }
+.add_new_extension_to_allow, .delete_allowed_extension_for_ac_docs{	vertical-align:middle; width:20px;	}
+
+.tabOptions_Evaluation_method, .tabOptions_Danger, .tabOptions_Recommandation, .tabOptions_Menu{	float:right !important;	}
+#digirisk_configurations_tab{	padding:1em 0 0 0  !important;	}
+/* -- End options -- */
+
+/* -- Recommandation -- */
+.recommandationIconColumn{	width:45px !important; text-align:right !important;	}
+.recommandationActionColumn{	width:52px !important;	}
+.recommandationEfficiencyColumn{	width:40px !important; text-align:center !important;		}
+#recommandationForm label, #recommandationForm input{	display:block;	}
+#recommandationForm fieldset { padding:0; border:0; margin-top:0px; }
+.recommandationInterfaceContainerPart{	width:49% !important;	}
+.recommandationInput { margin-bottom:12px; width:95% !important; padding: .4em; }
+.recommandationFormErrorMessage {	margin:3px !important;	}
+.recommandationDefaultPictosList{		vertical-align:middle;max-width:48px !important;	}
+
+.recommandationCategoryDefaultPictosList{		vertical-align:middle;	}
+.recommandationCategoryBloc{	margin:0 1%;width:65px;text-align:center;padding:9px 0px;	}
+.recommandationCategoryName{	font-style:italic; font-size:9px;	}
+
+.recommandationCategorySelected, .recommandationSelected{	background-color:#DDDDDD;	}
+
+.recommandationBloc{	margin:1% 0;width:15%;text-align:center;height:55px;padding:9px 0px;	}
+.recommandationName{	font-style:italic; font-size:9px;	}
+#recommandationContainer{	margin:0px; border:1px solid grey; }
+#recommandationFormContent label{	margin:6px 0px 0px;	}
+
+#divAjoutPreconisation{	padding:1em;overflow:none !important;	}
+.recommandationIconUploadButton{	float:right;width:80%;	}
+.recommandationMainIcon{	float:left;width:19%;	}
+.recommandationMainIcon img{		max-width:95%;	}
+#recommandationPictureGalery .thumbnailUpload, #recommandationCategoryPictureGalery .thumbnailUpload{		max-width:48px !important;	}
+#recommandationPictureGalery div.slideshow img, #recommandationCategoryPictureGalery div.slideshow img{		max-width:48px !important;	}
+#recommandationPictureGalery .qq-upload-button, #recommandationCategoryPictureGalery .qq-upload-button{		width:50% !important;	}
+#divListePreconisation .dataTables_filter{ /*width:50% !important;*/}
+.addRecommandationBox{	margin:1.5em 0 0 0.5em; height:30px;	}
+.recommandationCategoryExplanation{	margin:6px 0px 6px;	}
+#recommandationNameIndication{	font-style:italic; font-size:10px; font-weight:bold;	}
+.recommandationCategoryOption{	font-size:11px;	}
+.recommandationCategoryOptionLabel{	font-size:10px; font-style:italic;	}
+.recommandationCategoryOptionChoice{	float:left ;margin:0px 12px 0px;	}
+.recommandationCategoryOptionPicSizeContainer{	 clear: both; margin: 3px auto 0; text-align: center; width: 60%;	}
+.recommandationCategoryOptionPicSizeContainer input{	 width: 20% !important;	}
+/* -- End Recommandation -- */
+
+
+/* -- Document unique -- */
+#generateDUER, #generateFP, #generateFGP, #generatedDUER, #generatedFP, #generatedFGP, #generateRS, #generatedRS, #generateFEP, #generateCSV, #generatedFEP{ margin:3px 9px; padding:3px 9px; border:1px solid #DDDDDD; background-color:#E6E6E6; cursor:pointer; }
+#generateDUER.selected, #generateFP.selected, #generateFGP.selected, #generatedDUER.selected, #generatedFP.selected, #generatedFGP.selected, #generatedRS.selected, #generateFEP.selected, #generateCSV.selected, #generatedFEP.selected{ text-decoration:underline; background-color:#FFFFFF; font-weight:bold; }
+#saveWorkUnitSheetForGroupement{	margin:6px auto;	}
+#workUnitSheetCollectionModelSelector{	margin:6px;	}
+#documentModelContainer{	width:40%;	}
+#documentFormContainer{	width:60%; text-align:center;	}
+.duerODTFileLink{	text-align:right; padding:0px 6px;	}
+.DUERReGenerationButton{	border:0px solid black;	}
+.DUERContainer{ height:200px; overflow:auto; }
+.FGPContainer{ height:100px; overflow:auto; }
+.FPContainer{ height:200px; overflow:auto; }
+.RSContainer{ height:200px; overflow:auto; }
+.FEPContainer{ height:300px; overflow:auto; }
+#divHistoriqueFicheDAction{ height:300px; overflow:auto; }
+#divHistoriqueDocument{	height:410px !important; overflow:hidden !important;	}
+.duerDeleteContainer{	width:20px !important;	}
+.duerDeleteContainer img{	width:15px !important;	}
+.digi_generate_FEP {
+	margin: 0 0 0 60px;
+}
+.user_profil_generated_doc {
+	border-bottom: 1px solid #CCCCCC;
+}
+.user_profil_generated_doc .FEPContainer {
+	width: 70%;
+	margin: 20px auto;
+}
+/* -- End Document unique -- */
+
+
+
+/* -- Notes -- */
+#noteTaker{	float:right; margin: 0 50px 0 15px ; }
+#digiNotes{	text-align:center; }
+.noteTakerPic{	max-width:18px; cursor:pointer;	}
+.noteInput {	width:99%; height:93%; padding: .4em; }
+#noteSaverMessage{	text-align:center;	width:70%;	margin:0px auto;	padding:3px 0px;	}
+/* -- End Notes -- */
+
+
+/* -- Start Affectation box -- */
+.affectationCompleteListOutput{	width:40%;	}
+.affectedElementListOutput{	height:230px;	width:100%;	overflow:auto;	padding:3px 0px; margin:6px 0px;	}
+.selectedelementOPContainer{	padding:3px 6px; background-color:#DDDDDD; margin:0px 6px 3px; white-space:no-wrap; float:left;	-webkit-border-radius:1em;	-moz-border-radius:1em;	border-radius:1em;}
+.trashed_product{	background-color:red !important;	}
+.selectedelementOP:hover{	text-decoration:line-through; cursor:pointer; color:#CC0000;	}
+.selectedelementGPU{	padding:3px 6px; background-color:#DDDDDD; margin:0px 6px 3px; white-space:no-wrap; float:left;	-webkit-border-radius:1em;	-moz-border-radius:1em;	border-radius:1em;}
+.selectedelementGPU:hover{	text-decoration:line-through; cursor:pointer; color:#CC0000;	}
+.deleteElementFromList{	cursor:pointer; float:right; background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: -80px -128px !important; width:16px; height:16px;	}
+.deleteElementFromList:hover{	cursor:pointer; float:right; background: url("../../medias/jquery_pics/ui-icons_cd0a0a_256x240.png") !important; background-position: -80px -128px !important; width:16px; height:16px;	}
+
+.searchElementToAffect{	float:left; width:90%; color:#888888;	}
+.searchElementInput{	float:left; background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png"); background-position: -160px -112px; width:16px; height:16px; margin:3px 0px;}
+
+.elementIsLinked{	background: url("../../medias/jquery_pics/ui-icons_66cc33_256x240.png") !important; background-position: -64px -144px !important; width:16px; height:16px;}
+.elementIsLinked:hover, .unlinkUser{	background: url("../../medias/jquery_pics/ui-icons_cd0a0a_256x240.png") !important; background-position: -80px -128px !important; width:16px; height:16px;}
+.elementIsNotLinked{	background: url("../../medias/jquery_pics/ui-icons_888888_256x240.png") !important; background-position: -96px -144px !important; width:16px; height:16px;}
+.elementIsNotLinked:hover, .linkUser{	background: url("../../medias/jquery_pics/ui-icons_888888_256x240.png") !important; background-position: -64px -144px !important; width:16px; height:16px;}
+
+.noElementLinked{	margin:5px 10px;color:#646464;	}
+.addLinkElement{	padding:3px 0px;	}
+.addElementButtonDTable{	width:5%;	}
+.completeList{	height:190px; overflow:auto;	}
+.completeList .odd, .completeList .even{	cursor:pointer;	}
+
+.checkAll, .uncheckAll{ font-size:9px;cursor:pointer;	}
+
+.ac_results li{	color:#242424 !important;	}
+.ac_over {		background-color:#DDDDDD !important;	}
+/* -- End Affectation box -- */
+
+
+/* -- Start Product affectation box -- */
+.view_affected_product_sheet, .edit_affected_product_sheet{	width:20px; vertical-align:middle	}
+.affected_product_action{	text-decoration:none !important;	}
+/* -- End Product affectation box -- */
+
+
+/* -- Start form -- */
+.digirisk_form_label{	width:20%; vertical-align:top;	}
+.digirisk_form_input{	width:50%;	}
+.digirisk_form_input textarea, .digirisk_form_input select, .digirisk_form_input input[type=text], .digirisk_form_input input[type=file]{	width:60% !important;	}
+.digirisk_form_input input[type=radio], .digirisk_form_input input[type=checkbox]{	margin:0px 1px 0px 6px; vertical-align:middle;	}
+
+.pageHeaderButton{	float: left; padding:17px 18px 0px 0px;	}
+.cancelButton{	padding:8px 0px 0px !important;	}
+/* -- End form -- */
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+/*	Tableau de bord	*/
+.digi_stats_user_list {
+	margin: 0px 25px;
+}
+.digi_stats_user_list li{	
+	list-style-type:square !important;
+	float: left;
+	width: 25%;
+}
+#digi_user_summary_zipfile_container {
+	height: 250px;
+	overflow: auto;
+	clear: both;
+}
+#digi_field_list_for_export {
+	float: left;
+	width: 80%;
+}
+#digi_export_csv_file {
+	margin: 15% 0;
+}
+
+/*	Documents	*/
+.associated_document_list{	width:100%; border-collapse:collapse; }
+.associated_document_list_download_link{	text-align:right;	}
+.delete_document_button_container{	width:20px !important;	}
+.delete_document_button_container img{	width:15px !important;	}
+
+.element_associated_document_info{	background: url("../../medias/jquery_pics/ui-icons_2e83ff_256x240.png") !important; background-position: -16px -144px !important; cursor:pointer;	}
+.associated_document_infos_container{	padding:6px 15px;	}
+
+/************/
+/*	Outils 	*/
+/************/
+.tools_db_check_version_number{}
+.tools_db_check_version_details{}
+.tools_db_modif_list_version_number{ background-color:#C0C0C0 !important;	font-weight:bold; padding:9px 3px; width:20%;}
+.tools_db_modif_list_version_details{	margin:0px 12px;!important;}
+.tools_db_modif_list_version_details ul li.added_field{	list-style-type:disc !important;}
+.tools_db_modif_list_version_details ul li.changed_field{	list-style-type:circle !important;}
+.tools_db_modif_list_version_details ul li.added_table{	list-style-type:square !important;}
+.db_table_check, .db_added_field_check, .db_changed_field_check{ vertical-align:middle; margin:0px 3px; }
+
+.tools_alert.db_reinit{		color:red; font-weight:bold; font-size:2em; line-height:1.5em; margin-bottom:40px;	}
+.digirisk_table_deleted{	color:green; clear:right; margin:0.8em; }
+.digirisk_table_not_deleted{	color:red; clear:both; margin:0.8em;	}
+
+/*	user notifications	*/
+#userNotificationContainerBox{		overflow-x:scroll !important;	}
+#userNotificationContainerBox table{		table-layout:auto !important;	}
+
+/*	Start configuration page	*/
+#digirisk_configurations_tab .postbox .hndle{	cursor:auto !important;	}
+
+#add_new_var{	margin:0px 12px;	}
+.variableAction{	width:10%;	}
+
+#main_table_wp_eva__menu td{	vertical-align:middle;	}
+.element_menu{	margin:12px 0px;	}
+.menu_element_type_container{	border:1px solid #C0C0C0; padding:9px;	}
+.menu_element_type_name{	border:1px solid #C0C0C0; background-color:#C0C0C0; padding:6px;	}
+
+.existing_box_sortable li { margin:0 3px 3px 3px; padding:0.4em; padding-left:1.5em; font-size:1.4em; height:18px; cursor:move !important; }
+.existing_box_sortable li span { position:absolute; margin-left:-1.3em; }
+
+.element_hook{ margin:9px;}
+.element_hook_name{ background-color:#D0D0D0; padding:6px;	}
+.element_hook ul{ border:1px solid #D0D0D0; padding:9px;	}
+.menu_element_sortable li { margin:0 3px 3px 3px; padding:0.4em; padding-left:1.5em; font-size:1.4em; height:18px; }
+.menu_element_sortable li span { position:absolute; margin-left:-1.3em; }
+/*	End configuration page	*/
+
+/*	Start Evaluation method	*/
+#main_table_wp_eva__methode .infoList{	width:40%; }
+#main_table_wp_eva__methode td{	vertical-align:middle; }
+.evaluation_method_input { margin-bottom:12px; width:95% !important; padding: .4em; }
+.evaluation_method_form_error_message {	margin:3px !important;	}
+
+.evaluation_method_var_container{	margin:12px; display:table; width:95%;	}
+.single_var_container{ margin:0px 0px 2px 25px; width:50%; }
+.single_var_delete_container{	display:table; width:25%;	}
+
+.open_var_manager_container{	float:right; cursor:pointer; font-style:italic;	}
+.open_var_manager{	float:right; background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: -32px -80px !important;}
+/*	End Evaluation method	*/
+
+/*	General	*/
+.bold{font-weight:bold;}
+/*	Fin general	*/
+
+/*	Premiere de couv	*/
+.pagePremiereDeCouvDU{background:url("../../medias/images/documentUnique/fond.jpg") repeat-x scroll 0 0 transparent; height:1024px; margin:0; padding:0; width:650px; z-index:0;}
+
+.infosPrincipalesPremiereDeCouvDU{height:190px;padding:188px 25px 0;text-align:center;width:500px;}
+
+.titrePrincipalPremiereDeCouvDU{font-size:27px;font-style:italic;font-weight:bold;}
+.sousTitrePremiereDeCouvDU{font-size:17px;}
+.separationElementsTitrePrincipalCouvDU{margin:0px 0px 20px;border-collapse:collapse;}
+
+.infosBasPremiereDeCouvDU{padding:330px 0px 0px 0px;}
+.tableauInformationsBasPremiereDeCouvDU{margin:0px auto;width:80%;}
+.tableauInformationsBasPremiereDeCouvDU td{border:1px solid #000000;vertical-align:top;padding:0.2cm;}
+
+.footerPremiereDeCouvDU{height:63px;width:650px;font-size:11px;text-align:center;vertical-align:bottom;}
+/*	Fin premiere de couv	*/
+
+
+/*	Page DU		*/
+.pageDU{height:1024px;margin:0px;padding:0px;width:650px;}
+
+.headerDU{height:91px;vertical-align:top;}
+.headerDU img{width:650px;}
+
+.contentPageDU{vertical-align:top;}
+
+.footerDU{height:75px;width:650px;border:1px solid #000000;}
+
+.footer{width:100%;height:100%;}
+.footer .titreFooterDU{font-weight:bold;}
+
+.titrePrincipalPageDU{font-size:16px;font-weight:bold;padding:20px 5px;}
+.sousTitrePrincipalPageDU{font-size:14px;font-weight:bold;padding:10px 5px 10px 35px;}
+
+.petitTitreGrasPageDu{font-size:12px;font-weight:bold;padding:5px 0px 5px 70px;}
+
+.paragraphe1{font-size:11px;text-align:justify;padding:10px 5px 10px 45px;}
+.paragraphe2{font-size:11px;text-align:justify;padding:10px 5px 10px 75px;}
+
+.puces{font-size:11px;padding:0 0 0 80px;text-align:justify;}
+.imageIllustration img{margin:0px auto;width:650px;}
+/*	Fin page DU	*/
+
+/*	Contenu	DU*/
+.tableauExplicationNotationRisque{margin:10px auto;text-align:center;width:300px;border-collapse:collapse;}
+.tableauExplicationNotationRisque td{border:1px solid #000000;}
+.enTeteTableauExplicationNotationRisque{background-color:#9A9A9A;font-size:17px;font-weight:bold;}
+.notationRisqueInacceptable{background-color:#000000;color:#FFFFFF;font-size:14px;font-weight:bold;}
+.notationRisqueATraiter{background-color:#FF0000;font-size:14px;font-weight:bold;}
+.notationRisqueAPlanifier{background-color:#FFCD00;font-size:14px;font-weight:bold;}
+.notationRisqueFaible{font-size:14px;font-weight:bold;}
+.soustitrenoextrapadding {font-size:12px;font-weight:bold;padding:5px 0 5px 70px;}
+/*	Fin contenu	DU*/
+
+/*	Sommaire	*/
+.titrePrincipalPageSommaire{font-size:27px;font-weight:bold;font-style:italic;padding:20px 0 20px 35px;text-align:center;width:100%;}
+
+.grandTtitreSommaireDU{font-size:16px;font-weight:bold;padding:20px 0 20px 35px;width:600px;}
+.sousTitreSommaireDU{font-size:14px;font-weight:bold;padding:10px 0 10px 65px;width:600px;}
+.titreParagrapheSommaireDU{font-size:12px;font-weight:bold;padding:0px 0 0px 100px;width:600px;}
+
+.numeroPageGrandTitreSommaireDU{font-size:16px;font-weight:bold;text-align:right;width:30px;}
+.numeroPageSousTitreSommaireDU{font-size:14px;font-weight:bold;text-align:right;width:30px;}
+.numeroPageTitreParagrapheSommaireDU{font-size:12px;font-weight:bold;text-align:right;width:30px;}
+/*	Fin du sommaire	*/
+
+
+#vracStatsTabs div.ui-tabs-panel {
+	padding: 0px !important;
+}
+
+.ui-datepicker-current {
+	display: none;
+}
+input#digi_risk_date_start:disabled, input#digi_risk_end_start:disabled, input.risq_date_debut:disabled, input.risq_fin_debut:disabled {
+	border: 1px solid #F7F7F7 !important;
+	background-color: #F7F7F7;
+}
+
+.digi_recommandationNameIndication {
+	margin: 0 32px;
+}
+
+#postBoxUtilisateursEvaluated div.giveHeight, #postBoxUtilisateursEvaluated div.dataTables_scroll, #postBoxUtilisateurs div.giveHeight, #postBoxUtilisateurs div.dataTables_scroll{
+	clear: both;
+}
+#postBoxUtilisateursEvaluated div.dataTables_wrapper, #postBoxUtilisateurs div.dataTables_wrapper{
+	min-height: 0px !important;
+}
+#postBoxUtilisateursEvaluated div.dataTables_paginate{
+	margin: 0px !important;
+}
+#digi-users-affectation-wp_eva__groupement_evaluation_filter, #digi-users-affectation-wp_eva__unite_travail_evaluation_filter{
+	float: left !important;
+	margin-top: 45px;
+}
+#digi-users-affectation-wp_eva__groupement_filter{
+	float: left !important;
+}
+.digi-opener{	background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: 0px -211px !important; width:16px; height:16px; margin:3px 0px; cursor: pointer;	}
+.digi-closer{	background: url("../../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: -16px -211px !important; width:16px; height:16px; margin:3px 0px; cursor: pointer;	}
+#userListwp_eva__groupement_evaluation_wrapper {
+	max-height: 250px;
+	overflow-y: scroll;
+}
+/* tr td:first-child > span:first-child:before {
+    color: #000;
+    content: "≡";
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    left: 0;
+    text-indent: 0;
+    top: 3px;
+    width: 30px;
+    cursor: move;
+} */
+
+.digirisk_page_digirisk_risk_evaluation .wpes-existing-export-container, .digirisk_page_digirisk_risk_evaluation .wpes-audit-result-export-container {
+    width: 100% !important;
+}
+.digirisk_page_digirisk_risk_evaluation div.ui-widget-overlay.ui-front, .digirisk_page_digirisk_correctiv_actions div.ui-widget-overlay.ui-front, .settings_page_digirisk_options div.ui-widget-overlay.ui-front {
+	z-index: 3;
+}
+.digirisk_page_digirisk_risk_evaluation div.ui-dialog.ui-widget, .digirisk_page_digirisk_correctiv_actions div.ui-dialog.ui-widget, .settings_page_digirisk_options div.ui-dialog.ui-widget {
+	z-index: 5;
+}
+.digirisk_page_digirisk_risk_evaluation div.ui-slider.ui-slider-horizontal {
+	z-index: 1;
+}
+
+.digi-welcome-panel .welcome-panel-content {
+	width: 99% !important;	
+	max-width: initial;	
+}
+.digi-welcome-panel .welcome-panel-column {
+	width: 49% !important;
+}
+.digi-profil-utilisateur-links-to-permission-editor {
+	width: 65%;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 1px solid #000;
+	text-align: center;
+}
+.digi-profil-utilisateur-links-to-permission-editor ul {
+    margin: 20px auto;
+    text-align: left;
+    width: 30%;
+}
+.digi-profil-utilisateur-links-to-permission-editor ul li {
+	list-style-type: circle;
+}
+
+.wpdigi-risk-eval-options {
+	display: none;
+}
+.wpdigi-riskeval-switcher {
+	text-decoration: none;
+}
+.wpdigi-riskeval-switcher i {
+	font-size: 15px;
+	margin-top: 4px;
+}

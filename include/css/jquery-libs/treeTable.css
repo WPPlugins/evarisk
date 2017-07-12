@@ -1,0 +1,64 @@
+/* jQuery TreeTable Core 2.0 stylesheet
+ *
+ * This file contains styles that are used to display the tree table. Each tree
+ * table is assigned the +treeTable+ class.
+ * ========================================================================= */
+
+/* jquery.treeTable.collapsible
+ * ------------------------------------------------------------------------- */
+.treeTable tr td .expander {
+	background-position: left center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding: 0;
+	zoom: 1; /* IE7 Hack */
+}
+
+.treeTable tr.collapsed td .expander {
+	background-image: url(../../../medias/images/Icones/Divers/toggle-expand-dark.png);
+	background-size: 105%;
+}
+
+.treeTable tr.expanded td .expander {
+	background-image: url(../../../medias/images/Icones/Divers/toggle-collapse-dark.png);
+	font-weight:bold;
+	background-size: 105%;
+}
+
+/* jquery.treeTable.sortable
+ * ------------------------------------------------------------------------- */
+.treeTable a {
+	color:#000;
+}
+.noeudArbre, .noeudArbre a {
+	font-size: 1.3em;
+}
+.feuilleArbre, .feuilleArbre a {
+	font-style:italic;
+}
+
+.expanded {
+	font-weight:bold;
+}
+
+.treeTable tr.selected, .treeTable tr.accept {
+	color: #000;
+}
+
+.treeTable tr.selected a, .treeTable tr.accept a {
+	color: #000;
+	font-weight:bold;
+}
+
+.treeTable tr.collapsed.selected td .expander, .treeTable tr.collapsed.accept td .expander {
+	background-image: url(../../../medias/images/Icones/Divers/toggle-expand-dark.png);
+}
+
+.treeTable tr.expanded.selected td .expander, .treeTable tr.expanded.accept td .expander {
+	background-image: url(../../../medias/images/Icones/Divers/toggle-collapse-dark.png);
+}
+
+.treeTable .ui-draggable-dragging {
+	color: #000;
+	z-index: 1;
+}

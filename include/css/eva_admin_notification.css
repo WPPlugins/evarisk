@@ -1,0 +1,89 @@
+/*	Admin notification	*/
+.digirisk_admin_notice {
+	position: relative;
+	z-index: 100;
+	border: 1px solid #E1E1E1 !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 15px rgba( 0,0,0,0.04 );
+	-moz-box-shadow: inset 0 0 15px rgba( 0,0,0,0.04 );
+	box-shadow: inset 0 0 15px rgba( 0,0,0,0.04 );
+	overflow: hidden;
+	padding: 10px 0 30px !important;
+	background: #F0F0F0 url("../../medias/images/digirisk_message.png") no-repeat left top !important;
+	min-height:70px;
+}
+.digirisk_admin_notice .digirisk_message_container {
+	max-width: 960px;
+	margin: 0 0 0 315px;
+	padding: 0 10px;
+	text-align: left;
+	overflow: hidden;
+}
+.digirisk_admin_notice h4 {
+	margin: 0 10px 0 0;
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: normal;
+	color: #000000;
+	float: left;
+	vertical-align: middle;
+}
+.digirisk_admin_notice p {
+	margin: 0 !important;
+	padding: 2px 0 !important;
+	float: left !important;
+	line-height: 32px;
+	vertical-align: middle;
+}
+.digirisk_admin_notice a.button-primary {
+	font-size: 16px !important;
+	line-height: 16px !important;
+	margin: 0 5px 0 0;
+	padding: 6px 15px;
+	vertical-align: middle;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #88537e;
+	background: #a46497;
+	-moz-box-shadow: inset 0 0 2px rgba( 255,255,255,1), 0 1px 1px rgba( 0,0,0,0.1 );
+	-webkit-box-shadow: inset 0 0 2px rgba( 255,255,255,1), 0 1px 1px rgba( 0,0,0,0.1 );
+	box-shadow: inset 0 0 2px rgba( 255,255,255,1), 0 1px 1px rgba( 0,0,0,0.1 );
+	text-shadow: 0px -1px 0px rgba( 0,0,0,0.3);
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	cursor: pointer;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",Verdana,"Bitstream Vera Sans",sans-serif;
+}
+.digirisk_admin_notice a.button-primary:hover, .digirisk_admin_notice a.button-primary:active {
+	background-color: #f0a000;
+	border-color: #c87800;
+	-webkit-transition-duration: .3s;
+	outline: none;
+	opacity: 1;
+}
+.digirisk_admin_notice a.skip, .digirisk_admin_notice a.docs {
+	opacity: 0.5;
+}
+
+.digirisk_admin_notice_view_more_link{		}
+.digirisk_notification_version_number{	text-decoration:underline;	}
+.digirisk_notification_version_detail{	margin:0 0 0 16px;	}
+
+.digirisk_notification_message_not_readed{	background-color:#F0F0F0; font-weight:bold; padding:9px;	}
+.digirisk_notification_message_readed{	border:1px dashed #F0F0F0; padding:9px;	}
+.digirisk_notification_message_not_readed .digirisk_notification_version_detail{	font-weight:normal;	}
+
+.digirisk_notification_message_not_readed ul, .digirisk_notification_message_readed ul{	font-weight:normal; margin:0px 36px;	}
+.digirisk_notification_message_not_readed ul li a, .digirisk_notification_message_not_readed ul li a:hover{	cursor:auto; color:#000000;	}
+
+.digirisk_notification_mark_as_read_main_container, .digirisk_notification_mark_as_unread{	display:block; width:99%; text-align:right; font-weight:normal; }
+.digirisk_notification_mark_as_read_main_container{	background-color:#F0F0F0;	}
+
+.digirisk_notification_mail_state{	width:25px; vertical-align:middle; margin:0 10px 0 0;	}
+

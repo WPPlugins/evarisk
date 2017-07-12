@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Digirisk users - V1\n"
+"POT-Creation-Date: 2015-06-19 10:53+0100\n"
+"PO-Revision-Date: 2015-06-19 10:53+0100\n"
+"Last-Translator: Eoxia developement team <dev@eoxia.com>\n"
+"Language-Team: Evarisk developement team <dev@evarisk.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controller/wpdigi_users_ctr.php:30
+msgid "Digirisk : User's profile"
+msgstr "Digirisk : Profil des utilisateurs"
+
+#: controller/wpdigi_users_ctr.php:30
+msgid "Digirisk : Profile"
+msgstr "Digirisk : Profils"
+
+#: controller/wpdigi_users_ctr.php:33
+msgid "Digirisk : Import"
+msgstr "Digirisk : Import"
+
+#: controller/wpdigi_users_ctr.php:36
+msgid "Digirisk : Users' rights"
+msgstr "Digirisk : Droits des utilisateurs"
+
+#: controller/wpdigi_users_ctr.php:36
+msgid "Digirisk : Rights"
+msgstr "Digirisk : Droits"
+
+#: controller/wpdigi_users_ctr.php:40
+msgid "Digirisk : Users' groups management"
+msgstr "Digirisk : Gestion des groupes d'utilisateurs pour Digirisk"
+
+#: controller/wpdigi_users_ctr.php:40
+msgid "Digirisk : Groups"
+msgstr "Digirisk : Groupes"
+
+#~ msgid "Digirisk : users' profile"
+#~ msgstr "Digirisk : Profils"

@@ -1,0 +1,3 @@
+{
+	"sSearch":       "<span class='ui-icon searchDataTableIcon' >&nbsp;</span>"
+}
